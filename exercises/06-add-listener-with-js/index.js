@@ -3,4 +3,9 @@ window.onload = function myLoadFunction() {
 	//some code here
 };
 
+function myClickHandler(){
+    alert("wuju");
+}
+
+document.getElementById("theGreen").addEventListener('click',myClickHandler);
 //the listener function here
